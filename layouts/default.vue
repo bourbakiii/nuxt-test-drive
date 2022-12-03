@@ -7,6 +7,8 @@
 <script setup>
 </script>
 
-<style lang='scss'>
-
+<style lang="scss">
+.layout{
+  background-color: red;
+}
 </style>

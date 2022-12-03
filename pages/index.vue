@@ -5,6 +5,6 @@ Index page
 <script setup>
 </script>
 
-<style lang='scss'>
+<style>
 
 </style>
