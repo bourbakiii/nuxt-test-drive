@@ -3,11 +3,14 @@ export default defineNuxtConfig({
     runtimeConfig: {
         API_URL: "https://someurl.ru"
     },
+    app: {
+        pageTransition: {name: 'page', mode: 'out-in'}
+    },
     vite: {
         css: {
             preprocessorOptions: {
                 scss: {
-                    additionalData: '@use "@/assets/_colors.scss" as *;'
+                    additionalData: '@use "@/assets/_variables.scss" as *;'
                 }
             }
         }

@@ -1,10 +1,5 @@
 <template>
-Index page
+  <main class="page index-page">
+    Index
+  </main>
 </template>
-
-<script setup>
-</script>
-
-<style>
-
-</style>
