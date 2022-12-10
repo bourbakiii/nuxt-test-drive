@@ -1,0 +1,12 @@
+@import "../functions/_functions.scss";
+
+body {
+  height: 100vh;
+  padding: 0 viewport-calculate(1000px, 500px, 100px, 25px);
+}
+
+.default-layout, #__nuxt {
+  height:100%;
+  width: 100%;
+  background-color: #0EA976;
+}

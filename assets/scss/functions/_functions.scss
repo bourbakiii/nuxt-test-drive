@@ -1,1 +1,15 @@
-@import "functions_exporter";
+@use 'sass:math';
+
+@function strip-units($number) {
+  @return math.div($number, ($number * 0 + 1));
+}
+
+@function viewport-calculate($start, $end, $max, $min) {
+  $percent_of_width: calc((100vw - $end) / strip-units($start - $end));
+
+  $one_percent_of_values: calc(($max - $min) / 100);
+
+  $final_value: max(min(calc(($percent_of_width * strip-units($one_percent_of_values)) * 100 + $min), $max), $min);
+
+  @return $final_value;
+}
