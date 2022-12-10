@@ -1,8 +1,6 @@
 <template>
-  <nav class="navigation">
-    <NuxtLink class="navigation__link" to="/">Index</NuxtLink>
-    <NuxtLink class="navigation__link" to="/second">Second</NuxtLink>
-    <NuxtLink class="navigation__link" to="/third">Third</NuxtLink>
+  <nav class="navigation_adaptive">
+    
   </nav>
 </template>
 
