@@ -1,6 +1,5 @@
 <template>
   <nav class="navigation_adaptive">
-    
   </nav>
 </template>
 
