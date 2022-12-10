@@ -1,22 +1,13 @@
 <template>
-  <nav class="navigation_adaptive">
-    Navigation
+  <nav class="navigation_adaptive standart-padding">
+    Заголовок
   </nav>
 </template>
 
 <style lang='scss'>
-.navigation {
+.navigation_adaptive {
   width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-
-  &__link {
-    text-decoration: none;
-
-    &:hover {
-      text-decoration: underline;
-    }
-  }
+  height: 60px;
+  background-color: $white;
 }
 </style>

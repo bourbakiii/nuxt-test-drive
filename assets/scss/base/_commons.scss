@@ -2,8 +2,9 @@
 
 body {
   min-height: 100vh;
-  padding: 0 viewport-calculate(1000px, 500px, 100px, 25px);
-
+  font-family: $sfpro_font_family;
+  min-width: $phone_end;
+  background-color: $grey;
 }
 
 .default-layout, #__nuxt {
@@ -21,4 +22,9 @@ body {
 
 .page {
   flex-grow: 1;
+}
+
+.standart-padding {
+  padding-right: viewport-calculate($notebook_start, $phone_start, 50px, 18px);
+  padding-left: viewport-calculate($notebook_start, $phone_start, 50px, 18px);
 }
