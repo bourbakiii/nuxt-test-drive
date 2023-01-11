@@ -2,7 +2,5 @@
 export default defineNuxtConfig({
     runtimeConfig: {
         API_URL: "Some api URL right there"
-    },
-    
-    
+    }
 })

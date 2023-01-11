@@ -1,5 +1,5 @@
 <template>
-  <Welcome/>
+  <NuxtLayout/>
 </template>
 
 <script setup>
